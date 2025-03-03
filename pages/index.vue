@@ -3,4 +3,5 @@
 
 <template>
   <SectionHero/>
+  <SectionService/>
 </template>

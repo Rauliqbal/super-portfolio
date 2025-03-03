@@ -28,7 +28,27 @@ export const PROFILE = {
 }
 
 export const HERO = {
-  badge: 'I am currently working as a front end developer',
+  badge: 'Hello Im Rauliqbal',
   headline: "Crafting Crazy Experiences, One Pixel at a Time.",
   subline : "I am a developer and designer who has a passion for building responsive, cool looking, and easy to visit website applications."
+}
+
+export const SERVICE = {
+  label: 'service',
+  headline: 'Custom design solutions for your requirements.',
+  subline: 'I specialize in crafting user-centered solutions for businesses and individuals. Let’s create something extraordinary together.',
+  services: [
+    {
+      name: "Web Development",
+      icon: '',
+      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
+      thumbnails: ''
+    },
+    {
+      name: "UI/UX Designer",
+      icon: '',
+      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
+      thumbnails: ''
+    },
+  ]
 }

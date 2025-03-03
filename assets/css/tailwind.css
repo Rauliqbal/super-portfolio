@@ -6,6 +6,9 @@
  body{
   @apply bg-dark font-poppins
  }
+ section {
+  @apply py-20
+ }
 }
 
 @layer components {
@@ -17,6 +20,9 @@
   }
   .btn-dark {
     @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-white border border-white/10  
+  }
+  .card {
+    @apply flex flex-col px-5 py-6 border border-white/40 rounded-xl
   }
 }
 
