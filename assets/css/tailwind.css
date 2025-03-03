@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ body{
+  @apply bg-dark font-poppins
+ }
+}
+
+@layer components {
+  .badge {
+    @apply text-sm uppercase text-white px-3 py-1 rounded-lg border  border-white/10 inline-flex bg-gradient-to-b  from-white/10 to-transparent 
+  }
+  .btn-primary {
+    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-indigo-400  to-primary text-white
+  }
+  .btn-dark {
+    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-white border border-white/10  
+  }
+}
+
+@layer utilities{
+  .desc {
+    @apply  text-white/50 leading-relaxed tracking-wide
+  }
+}
