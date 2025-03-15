@@ -1,4 +1,6 @@
-<img src="./nuxt-logo.png"  alt="Rauliqbal Profile Picture"/><br>
+<div style="text-align: center;">
+  <img src="./nuxt-logo.png" style="width: 140px; text-align: center;" alt="Rauliqbal Profile Picture"/>
+</div>
 
 <h1 align="center" style="font-weight: bold;">Super Portfolio 💻</h1>
 
@@ -84,4 +86,6 @@ Here you will explain how other developers can contribute to your project. For e
 
 [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
-<img src="./github-logo.png"  alt="Rauliqbal Profile Picture"/><br>
+<div style="text-align: center;">
+  <img src="./github-logo.png" style="width: 300px; text-align: center;" alt="Rauliqbal Profile Picture"/>
+</div>
