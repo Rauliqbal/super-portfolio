@@ -4,15 +4,15 @@ export default {
   content: [],
   theme: {
     extend: {
-      container : {
+      container: {
         center: true,
-        padding:'1rem',
+        padding: '1rem',
         screens: {
-          '2xl': '1140px'
+          '2xl': '1280px'
         }
       },
       colors: {
-        primary:'#4B70F5',
+        primary: '#4B70F5',
         white: '#F8FAFC',
         dark: '#101114'
       },
@@ -27,7 +27,7 @@ export default {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         }
-      }    
+      }
     },
   },
   plugins: [],

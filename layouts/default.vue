@@ -2,6 +2,7 @@
 </script>
 
 <template>
+  <LayoutNavbar/>
   <main class="overflow-hidden">
     <slot/>
   </main>
