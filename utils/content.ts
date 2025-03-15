@@ -40,13 +40,25 @@ export const SERVICE = {
   services: [
     {
       name: "Web Development",
-      icon: '',
+      icon: 'Scroll',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
       thumbnails: ''
     },
     {
+      name: "Mobile Development",
+      icon: 'MobileProgramming',
+      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
+      thumbnails: 'https://cdn.dribbble.com/userupload/36796487/file/original-436c64a72733941273f9fd1f4d994883.jpg?resize=752x&vertical=center'
+    },
+    {
       name: "UI/UX Designer",
-      icon: '',
+      icon: 'PenTool2',
+      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
+      thumbnails: ''
+    },
+    {
+      name: "Graphic Design",
+      icon: 'Designtools',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
       thumbnails: ''
     },

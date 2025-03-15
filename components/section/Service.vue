@@ -12,14 +12,14 @@
     </p>
 
     <!-- Services List -->
-    <div class="grid md:grid-cols-2 gap-6 mt-8">
+    <div class="grid md:grid-cols-2 gap-6 mt-16">
       <div class="card" v-for="item in SERVICE.services">
         <div class="flex gap-4">
           <div>
-            <div class="inline-flex p-2 rounded-lg border border-blue-400">
+            <div class="inline-flex p-2 rounded-lg border border-primary shadow-[0px_0px_15px_-3px_rgba(85,_132,_255,_0.5)]">
               <VsxIcon
-                iconName="Designtools"
-                :size="32"
+                :iconName="item.icon"
+                :size="24"
                 color="#5584FF"
                 type="linear"
               />
