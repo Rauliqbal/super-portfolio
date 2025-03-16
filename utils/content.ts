@@ -1,20 +1,20 @@
 export const NAVLINKS= [
   {
-    label : 'Home',
+    label : 'Service',
     url: '/'
   },
   {
-    label : 'Service',
-    url: '/'
+    label : 'Works',
+    url: '#work'
+  },
+  {
+    label : 'About',
+    url: '#about'
   },
   {
     label : 'Store',
     url: '#store'
   },
-  {
-    label : 'Contact Me',
-    url: '#contact-me'
-  }
 ]
 
 export const PROFILE = {
@@ -28,8 +28,8 @@ export const PROFILE = {
 }
 
 export const HERO = {
-  badge: 'Hello Im Rauliqbal',
-  headline: "Crafting Crazy Experiences, One Pixel at a Time.",
+  badge: 'Available for freelance',
+  headline: `Hey, I'm ${PROFILE.lastname}. I'm a ${PROFILE.role}`,
   subline : "I am a developer and designer who has a passion for building responsive, cool looking, and easy to visit website applications."
 }
 

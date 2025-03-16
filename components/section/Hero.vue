@@ -3,14 +3,14 @@
 <template>
   <div class="container relative py-40">
     <!-- Content -->
-    <div class="z-10 relative">
-    <p class="badge">{{ HERO.badge }}</p>
+    <div class="z-10 relative flex flex-col items-center">
+    <p class="badge text-center flex items-center gap-2"> <div class="animate-pulse w-2 h-2 bg-primary rounded-full"></div> {{ HERO.badge }}</p>
     <h1
-      class="max-w-4xl text-4xl md:text-5xl lg:text-6xl text-white font-semibold mt-4 !leading-snug"
+      class="max-w-4xl mx-auto text-center text-4xl md:text-5xl lg:text-6xl text-white font-bold mt-4 !leading-snug"
     >
       {{ HERO.headline }}
     </h1>
-    <p class="desc mt-4 max-w-xl">
+    <p class="desc mt-4 text-center max-w-xl mx-auto">
       {{ HERO.subline }}
     </p>
     <div class="flex gap-4 items-center mt-8">
@@ -28,19 +28,18 @@
         class="h-full w-24 bg-gradient-to-l from-dark to-transparent right-0 inset-y-0 absolute z-10"
       ></div>
       <ul
-        class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+        class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll hover:animate-pause"
       >
-        <li  v-for="item in 8">
+        <li v-for="item in 8" class="overflow-hidden group">
           <img
-           
-            class="h-[300px] rounded-xl"
+            class="h-[300px] rounded-xl group-hover:scale-105 group-hover:opacity-70 transition-all"
             src="https://sfveuafbpwhmzfiorbis.supabase.co/storage/v1/object/public/project/azurakit-preview.png"
           />
         </li>
 
-        <li v-for="item in 8" aria-hidden="true">
+        <li v-for="item in 8" class="overflow-hidden group" aria-hidden="true">
           <img
-            class="h-[300px] rounded-xl"
+            class="h-[300px] rounded-xl group-hover:scale-105 group-hover:opacity-70 transition-all"
             src="https://sfveuafbpwhmzfiorbis.supabase.co/storage/v1/object/public/project/azurakit-preview.png"
           />
         </li>

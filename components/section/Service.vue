@@ -3,7 +3,7 @@
     <!-- Content -->
     <p class="badge">{{ SERVICE.label }}</p>
     <h2
-      class="max-w-[600px] text-3xl md:text-4xl lg:text-5xl text-white font-semibold mt-4 !leading-snug"
+      class="max-w-[700px] text-2xl md:text-3xl lg:text-4xl text-white font-semibold mt-4 !leading-snug"
     >
       {{ SERVICE.headline }}
     </h2>
