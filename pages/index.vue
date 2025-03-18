@@ -4,4 +4,5 @@
 <template>
   <SectionHero/>
   <SectionService/>
+  <SectionWork/>
 </template>

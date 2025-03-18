@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <NuxtLink
     :to="to"
-    class="group relative overflow-hidden btn-primary"
+    class="group relative overflow-hidden"
     :class="variant ? 'btn-dark' : 'btn-primary'"
   >
     <div

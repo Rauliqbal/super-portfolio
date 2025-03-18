@@ -64,3 +64,35 @@ export const SERVICE = {
     },
   ]
 }
+
+export const WORK = {
+  label: 'work',
+  headline: 'Custom design solutions for your requirements.',
+  subline: 'I specialize in crafting user-centered solutions for businesses and individuals. Let’s create something extraordinary together.',
+  works: [
+    {
+      name: "WeServe Hosting Provider",
+      live_demo: 'https://azurakit.vercel.app/product/zzdtutRC_KJfbcWO1GA7vw==',
+      description: 'This website is to improve your business as a software house and reach more customers.',
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fwd37reb16onszq4sno984oxgqw9v&w=828&q=75'
+    },
+    {
+      name: "FurniLux",
+      live_demo: 'https://azurakit.vercel.app/product/dtq8B4VppLl7vy3mznzIdA==',
+      description: 'Make your home comfortable with best furniture.',
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fsz0z5ps0a66qxbumvbdvlwxesf6h&w=828&q=75'
+    },
+    {
+      name: "Let's Food UI Kit",
+      live_demo: 'https://azurakit.vercel.app/product/DEmTK1qQqBqRsBe2ynD9gg==',
+      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fstcc37agb2vohgrpijaf9p4p5skj&w=828&q=75'
+    },
+    {
+      name: "Creative Agency",
+      live_demo: 'https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==',
+      description: 'This website is to improve your business as a software house and reach more customers.',
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2F26w851qbqig4m1ocg6ovxyzdulhk&w=828&q=75'
+    },
+  ]
+}
