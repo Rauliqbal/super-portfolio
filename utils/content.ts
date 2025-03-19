@@ -24,7 +24,7 @@ export const PROFILE = {
     return `${this.firstname} ${this.lastname}`
   },
   role : 'Front-End Developer & UI Designer',
-  avatar: '/images/'
+  avatar: '/images/profile.jpg'
 }
 
 export const HERO = {
@@ -98,5 +98,13 @@ export const WORK = {
       thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2F26w851qbqig4m1ocg6ovxyzdulhk&w=828&q=75',
       type: 'Web Company'
     },
+  ]
+}
+
+export const ABOUT = {
+  label: 'Let me introduce my self',
+  introduce: [
+    `My name is ${PROFILE.fullname}, and I am a passionate ${PROFILE.role}. I specialize in creating seamless and visually appealing user interfaces, combining design and development to enhance user experiences.`,
+    "I love turning ideas into interactive and functional web applications. Excited to collaborate and build amazing digital products together!"
   ]
 }

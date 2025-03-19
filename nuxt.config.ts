@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       title: 'Rauliqbal | Front-End Developer and UI Designer'
     }
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
     families: {
       Poppins: [300, 400, 500, 600, 700], 
