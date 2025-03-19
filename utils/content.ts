@@ -74,25 +74,29 @@ export const WORK = {
       name: "WeServe Hosting Provider",
       live_demo: 'https://azurakit.vercel.app/product/zzdtutRC_KJfbcWO1GA7vw==',
       description: 'This website is to improve your business as a software house and reach more customers.',
-      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fwd37reb16onszq4sno984oxgqw9v&w=828&q=75'
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fwd37reb16onszq4sno984oxgqw9v&w=828&q=75',
+      type: 'landing page'
     },
     {
       name: "FurniLux",
       live_demo: 'https://azurakit.vercel.app/product/dtq8B4VppLl7vy3mznzIdA==',
       description: 'Make your home comfortable with best furniture.',
-      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fsz0z5ps0a66qxbumvbdvlwxesf6h&w=828&q=75'
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fsz0z5ps0a66qxbumvbdvlwxesf6h&w=828&q=75',
+      type: 'landing page'
     },
     {
       name: "Let's Food UI Kit",
       live_demo: 'https://azurakit.vercel.app/product/DEmTK1qQqBqRsBe2ynD9gg==',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
-      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fstcc37agb2vohgrpijaf9p4p5skj&w=828&q=75'
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2Fstcc37agb2vohgrpijaf9p4p5skj&w=828&q=75',
+      type: 'Web Design'
     },
     {
       name: "Creative Agency",
       live_demo: 'https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==',
       description: 'This website is to improve your business as a software house and reach more customers.',
-      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2F26w851qbqig4m1ocg6ovxyzdulhk&w=828&q=75'
+      thumbnails: 'https://azurakit.vercel.app/_next/image?url=https%3A%2F%2Fpublic-files.gumroad.com%2F26w851qbqig4m1ocg6ovxyzdulhk&w=828&q=75',
+      type: 'Web Company'
     },
   ]
 }

@@ -24,7 +24,10 @@
             <div class="flex items-center h-full justify-center">
               <Button class="opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-500" label="View Details" to="#contact" variant="btn-dark" />
             </div>
-            <h3 class="text-white text-lg font-bold -translate-y-10 translate-x-4 group-hover:opacity-0 transition-all duration-300">{{ item.name }}</h3>
+            <div class="-translate-y-16 lg:-translate-y-[70px] translate-x-4 lg:translate-x-7">
+              <h3 class="text-white text-lg lg:text-xl tracking-wide font-bold group-hover:opacity-0 transition-all duration-500">{{ item.name }}</h3>
+            <p class="text-sm text-white/40 group-hover:opacity-0 transition-all duration-500">{{item.type}}</p>
+            </div>
           </div>
         </div>
       </div>
