@@ -33,17 +33,17 @@
       <ul
         class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll hover:animate-pause"
       >
-        <li v-for="item in 8" class="overflow-hidden group">
+        <li v-for="item in WORK.works" class="overflow-hidden group">
           <img
             class="h-[300px] rounded-xl group-hover:scale-105 group-hover:opacity-70 transition-all"
-            src="https://sfveuafbpwhmzfiorbis.supabase.co/storage/v1/object/public/project/azurakit-preview.png"
+            :src="'/images/work/' + item.thumbnails"
           />
         </li>
 
-        <li v-for="item in 8" class="overflow-hidden group" aria-hidden="true">
+        <li v-for="item in WORK.works" class="overflow-hidden group" aria-hidden="true">
           <img
             class="h-[300px] rounded-xl group-hover:scale-105 group-hover:opacity-70 transition-all"
-            src="https://sfveuafbpwhmzfiorbis.supabase.co/storage/v1/object/public/project/azurakit-preview.png"
+            :src="'/images/work/' + item.thumbnails"
           />
         </li>
       </ul>

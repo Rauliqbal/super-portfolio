@@ -20,7 +20,7 @@ export default {
         poppins: ['Poppins', 'sans-serif']
       },
       animation: {
-        'infinite-scroll': 'infinite-scroll 120s linear infinite',
+        'infinite-scroll': 'infinite-scroll 80s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
