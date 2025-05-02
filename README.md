@@ -1,5 +1,5 @@
-<div style="text-align: center;">
-  <img src="./nuxt-logo.png" style="width: 140px; text-align: center;" alt="Rauliqbal Profile Picture"/>
+<div align="center">
+  <img src="./nuxt-logo.png" width="140" alt="Rauliqbal Profile Picture"/>
 </div>
 
 <h1 align="center" style="font-weight: bold;">Super Portfolio 💻</h1>
@@ -41,7 +41,7 @@ Here you list all prerequisites necessary for running your project. For example:
 How to clone your project
 
 ```bash
-git clone your-project-url-in-github
+git clone https://github.com/Rauliqbal/super-portfolio.git --branch main
 ```
 
 <h3>Starting</h3>
@@ -49,9 +49,19 @@ git clone your-project-url-in-github
 How to start your project
 
 ```bash
-cd project-name
-npm some-command-to-run
+cd super-portfolio
+
+# Install Dependencies
+pnpm install
+# or
+npm install
+
+# Running on Development
+pnpm dev
+# or
+npm run dev
 ```
+Open on your browser http://localhost:3000
 
 <h2 id="colab">🤝 Collaborators</h2>
 
@@ -86,6 +96,6 @@ Here you will explain how other developers can contribute to your project. For e
 
 [💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
-<div style="text-align: center;">
-  <img src="./github-logo.png" style="width: 300px; text-align: center;" alt="Rauliqbal Profile Picture"/>
+<div align="center">
+  <img src="./github-logo.png" height="140" alt="Rauliqbal Profile Picture"/>
 </div>
