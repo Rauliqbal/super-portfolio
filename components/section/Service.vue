@@ -3,7 +3,7 @@
     <!-- Content -->
     <p class="badge">{{ SERVICE.label }}</p>
     <h2
-      class="max-w-[700px] text-2xl md:text-3xl lg:text-4xl text-white font-semibold mt-4 !leading-snug"
+      class="section-title"
     >
       {{ SERVICE.headline }}
     </h2>
@@ -12,11 +12,11 @@
     </p>
 
     <!-- Services List -->
-    <div class="grid md:grid-cols-2 gap-6 mt-16">
-      <div class="card" v-for="item in SERVICE.services">
-        <div class="flex gap-4">
-          <div>
-            <div class="inline-flex p-2 rounded-lg border border-primary shadow-[0px_0px_15px_-3px_rgba(85,_132,_255,_0.5)]">
+    <div class="grid md:grid-cols-3 gap-6 mt-16">
+      <div class="card relative flex items-center p-10" v-for="item in SERVICE.services">
+       <div>
+        <div>
+          <div class="inline-flex p-2 rounded-lg border border-primary shadow-[0px_0px_15px_-3px_rgba(85,_132,_255,_0.5)]">
               <VsxIcon
                 :iconName="item.icon"
                 :size="24"
@@ -24,14 +24,18 @@
                 type="linear"
               />
             </div>
-          </div>
-          <div>
-            <h4 class="text-xl font-semibold text-white">{{ item.name }}</h4>
+        </div>
+       
+          <div class="mt-5">
+            <h4 class="text-xl font-semibold tracking-wide text-white">{{ item.name }}</h4>
             <p class="text-white/50 mt-2">{{ item.description }}</p>
           </div>
-        </div>
+       </div>
 
-        <img class="mt-6 rounded-lg" src="https://sfveuafbpwhmzfiorbis.supabase.co/storage/v1/object/public/project/azurakit-preview.png" alt="">
+          <div
+          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0 ADAWDDWDAWDAWD"
+        ></div>
+        <div class="-z-10 absolute  bottom-0 w-40 bg-[#0b50e5] rounded-full blur-2xl h-40 animate-pulse"></div>
       </div>
     </div>
   </section>

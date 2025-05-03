@@ -7,7 +7,7 @@
       <div>
         <p class="badge">{{ ABOUT.label }}</p>
         <h2
-          class="max-w-[700px] text-2xl md:text-3xl lg:text-4xl text-white font-semibold mt-4 !leading-snug"
+          class="section-title"
         >
           {{ PROFILE.fullname }}
         </h2>
@@ -50,9 +50,9 @@
           </div>
         </div>
         <div
-          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0055ff]/0 via-[#0055ff] to-[#0055ff]/0 ADAWDDWDAWDAWD"
+          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0 ADAWDDWDAWDAWD"
         ></div>
-        <div class="-z-10 absolute bottom-4 w-96 bg-blue-500/80 rounded-full blur-2xl h-40 animate-pulse"></div>
+        <div class="-z-10 absolute bottom-4 w-96 bg-[#0b50e5] rounded-full blur-2xl h-40 animate-pulse"></div>
       </div>
     </div>
   </section>

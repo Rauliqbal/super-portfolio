@@ -3,7 +3,7 @@
     <!-- Content -->
     <p class="badge">{{ WORK.label }}</p>
     <h2
-      class="max-w-[700px] text-2xl md:text-3xl lg:text-4xl text-white font-semibold mt-4 !leading-snug"
+      class="section-title"
     >
       {{ WORK.headline }}
     </h2>
@@ -39,7 +39,7 @@
         </div>
 
         <div
-          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0055ff]/0 via-[#0055ff] to-[#0055ff]/0 ADAWDDWDAWDAWD"
+          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0 ADAWDDWDAWDAWD"
         ></div>
       </div>
     </div>
