@@ -8,18 +8,14 @@ export const NAVLINKS= [
     url: '#about'
   },
   {
-    label : 'Service',
-    url: '/#service'
-  },
-  {
     label : 'Works',
     url: '#work'
   },
-  
   {
-    label : 'Store',
-    url: '#store'
+    label : 'Service',
+    url: '/#service'
   },
+  
 ]
 
 export const PROFILE = {
