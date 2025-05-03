@@ -1,13 +1,10 @@
-<script setup lang='ts'>
-</script>
-
 <template>
-  <SectionHero/>
-  <LayoutLine/>
-  <SectionAbout/>
-  <LayoutLine/>
-  <SectionWork/>
-  <LayoutLine/>
-  <SectionService/>
-  <SectionCta/>
+    <SectionHero />
+    <LayoutLine />
+    <SectionAbout />
+    <LayoutLine />
+    <SectionWork />
+    <LayoutLine />
+    <SectionService />
+    <SectionCta />
 </template>
