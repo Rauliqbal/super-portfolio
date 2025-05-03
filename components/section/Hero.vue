@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container relative py-40">
+  <div id="hero" class="container relative py-40">
     <!-- Content -->
     <div class="z-10 relative flex flex-col items-center">
     <div class="badge  flex items-center gap-2"> 
@@ -13,7 +13,7 @@
     >
       {{ HERO.headline }}
     </h1>
-    <p class="desc mt-4 text-center max-w-xl mx-auto">
+    <p class="paragraph mt-4 text-center max-w-xl mx-auto">
       {{ HERO.subline }}
     </p>
     <div class="flex gap-4 items-center mt-8">
@@ -50,7 +50,7 @@
      
     </div>
 
-    <div class="absolute -top-40 right-40 rotate-45 w-24 h-[400px] bg-white/60 blur-[160px]"></div>
+    <div class="absolute -top-40 right-40 rotate-45 w-24 h-[400px] bg-blue-500 blur-[160px]"></div>
     <div class="absolute top-0 left-0 w-screen h-screen index-bg">
         <div class="h-0">
             <div class="star"></div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section id="service" class="container">
     <!-- Content -->
     <p class="badge">{{ SERVICE.label }}</p>
     <h2
@@ -7,7 +7,7 @@
     >
       {{ SERVICE.headline }}
     </h2>
-    <p class="desc mt-4 max-w-xl">
+    <p class="paragraph mt-4 max-w-xl">
       {{ SERVICE.subline }}
     </p>
 

@@ -3,7 +3,7 @@
 
 <template>
   <SectionHero/>
-  <SectionService/>
-  <SectionWork/>
   <SectionAbout/>
+  <SectionWork/>
+  <SectionService/>
 </template>

@@ -1,16 +1,21 @@
 export const NAVLINKS= [
   {
-    label : 'Service',
-    url: '/'
-  },
-  {
-    label : 'Works',
-    url: '#work'
+    label: 'Home',
+    url: '#hero'
   },
   {
     label : 'About',
     url: '#about'
   },
+  {
+    label : 'Service',
+    url: '/#service'
+  },
+  {
+    label : 'Works',
+    url: '#work'
+  },
+  
   {
     label : 'Store',
     url: '#store'

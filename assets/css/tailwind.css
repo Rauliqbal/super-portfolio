@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth
+  }
   body {
     @apply bg-dark font-poppins;
   }
@@ -19,15 +22,15 @@
     @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-indigo-400  to-primary text-white;
   }
   .btn-dark {
-    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-white border border-white/10;
+    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-white border border-white/10 ;
   }
   .card {
-    @apply flex flex-col px-5 py-6 border border-white/10 rounded-xl;
+    @apply flex flex-col p-3 border bg-[#1d1d1d] border-white/10 rounded-2xl;
   }
 }
 
 @layer utilities {
-  .desc {
+  .paragraph {
     @apply text-white/50 leading-relaxed tracking-wide;
   }
   .animate-pause {
