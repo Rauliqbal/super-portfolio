@@ -1,5 +1,6 @@
 <template>
-  <section id="service" class="container">
+  <LayoutScrollSmooth>
+    <section id="service" class="container">
     <!-- Content -->
     <p class="badge">{{ SERVICE.label }}</p>
     <h2
@@ -39,4 +40,5 @@
       </div>
     </div>
   </section>
+  </LayoutScrollSmooth>
 </template>

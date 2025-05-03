@@ -2,7 +2,8 @@
 </script>
 
 <template>
-  <section class="max-w-5xl mx-auto px-4 lg:px-0">
+  <LayoutScrollSmooth>
+    <section class="max-w-5xl mx-auto px-4 lg:px-0">
     <div class="mesh-gradient flex items-center flex-col rounded-3xl border bg-[#0b061a] border-white/10 p-10 relative">
         <div class="flex flex-col items-center">
           <h2 class="text-center !max-w-xl section-title ">{{ CTA.label }}</h2>
@@ -43,4 +44,5 @@
         <div class="-z-10 absolute bottom-4 w-96 bg-[#0b50e5] rounded-full blur-2xl h-40 animate-pulse"></div>
     </div>
   </section>
+  </LayoutScrollSmooth>
 </template>

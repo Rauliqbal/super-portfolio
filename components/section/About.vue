@@ -1,6 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
+ <LayoutScrollSmooth>
   <section id="about" class="container">
     <div class="grid items-center grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Content -->
@@ -56,4 +57,5 @@
       </div>
     </div>
   </section>
+ </LayoutScrollSmooth>
 </template>
