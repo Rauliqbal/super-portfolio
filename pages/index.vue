@@ -3,7 +3,11 @@
 
 <template>
   <SectionHero/>
-  <SectionService/>
-  <SectionWork/>
+  <LayoutLine/>
   <SectionAbout/>
+  <LayoutLine/>
+  <SectionWork/>
+  <LayoutLine/>
+  <SectionService/>
+  <SectionCta/>
 </template>

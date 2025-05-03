@@ -1,33 +1,59 @@
-<script setup lang='ts'>
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <section class="container">
-    
+  <section id="about" class="container">
     <div class="grid items-center grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Content -->
       <div>
         <p class="badge">{{ ABOUT.label }}</p>
         <h2
-      class="max-w-[700px] text-2xl md:text-3xl lg:text-4xl text-white font-semibold mt-4 !leading-snug"
-    >
-      {{ PROFILE.fullname }}
-    </h2>
+          class="section-title"
+        >
+          {{ PROFILE.fullname }}
+        </h2>
 
-    <p class="desc mt-4" v-for="intro in ABOUT.introduce">
-      {{intro}}
-    </p>
+        <p class="paragraph mt-4" v-for="intro in ABOUT.introduce">
+          {{ intro }}
+        </p>
 
-    <Button class="mt-8" label="Connect Me" to="#contact" variant="btn-dark"/>
-      </div>      
+        <Button
+          class="mt-8"
+          label="Connect Me"
+          to="#contact"
+          variant="btn-dark"
+        />
+      </div>
 
       <!-- Image -->
-       <div class="card">
-        <img class="rounded-lg" :src="PROFILE.avatar" :alt="`${PROFILE.fullname} - ${PROFILE.role}`"/>
+      <div class="card relative flex items-center">
         <!-- Remove if u want -->
-        <p class="absolute text-white/20 font-medium p-2">Photo by <a href="https://unsplash.com/@sooprun?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Suprun</a> on <a href="https://unsplash.com/photos/a-man-standing-in-front-of-a-purple-wall-1RAZcvtAxkk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-        </p>
-       </div>
+        <p class="absolute text-white/20 font-medium p-2">
+              Photo by
+              <a
+                href="https://unsplash.com/@sooprun?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                >Alex Suprun</a
+              >
+              on
+              <a
+                href="https://unsplash.com/photos/a-man-standing-in-front-of-a-purple-wall-1RAZcvtAxkk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                >Unsplash</a
+              >
+            </p>
+        <div>
+          <div>
+            <img
+              class="rounded-lg"
+              :src="PROFILE.avatar"
+              :alt="`${PROFILE.fullname} - ${PROFILE.role}`"
+            />
+            
+          </div>
+        </div>
+        <div
+          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0 ADAWDDWDAWDAWD"
+        ></div>
+        <div class="-z-10 absolute bottom-4 w-96 bg-[#0b50e5] rounded-full blur-2xl h-40 animate-pulse"></div>
+      </div>
     </div>
   </section>
 </template>

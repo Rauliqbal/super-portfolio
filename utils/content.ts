@@ -1,20 +1,21 @@
 export const NAVLINKS= [
   {
-    label : 'Service',
-    url: '/'
-  },
-  {
-    label : 'Works',
-    url: '#work'
+    label: 'Home',
+    url: '#hero'
   },
   {
     label : 'About',
     url: '#about'
   },
   {
-    label : 'Store',
-    url: '#store'
+    label : 'Works',
+    url: '#work'
   },
+  {
+    label : 'Service',
+    url: '/#service'
+  },
+  
 ]
 
 export const PROFILE = {
@@ -56,12 +57,7 @@ export const SERVICE = {
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
       thumbnails: ''
     },
-    {
-      name: "Graphic Design",
-      icon: 'Designtools',
-      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores!',
-      thumbnails: ''
-    },
+   
   ]
 }
 
@@ -121,4 +117,9 @@ export const ABOUT = {
     `My name is ${PROFILE.fullname}, and I am a passionate ${PROFILE.role}. I specialize in creating seamless and visually appealing user interfaces, combining design and development to enhance user experiences.`,
     "I love turning ideas into interactive and functional web applications. Excited to collaborate and build amazing digital products together!"
   ]
+}
+
+export const CTA = {
+  label: 'Let’s Build Something Great Together',
+  description: 'Need a clean, functional UI? I’m here to help bring your vision to life—simple, responsive, and user-focused.'
 }

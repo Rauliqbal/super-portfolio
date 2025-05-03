@@ -10,7 +10,7 @@ console.log(isActive.value)
 
 <template>
   <header
-    class="max-w-[1440px] px-4 mx-auto fixed inset-x-0 top-0 mt-4 lg:mt-10 z-50"
+    class="max-w-[1480px] px-4 mx-auto fixed inset-x-0 top-0 mt-4 lg:mt-10 z-50"
   >
     <div class="flex items-center justify-between">
       <svg
@@ -84,7 +84,7 @@ console.log(isActive.value)
       </div>
      <div>
       <Button
-        class="rounded-full hidden lg:block"
+        class="rounded-full hidden lg:block shadow-none"
         label="Connect Me"
         to="#contact"
         variant="btn-dark"
