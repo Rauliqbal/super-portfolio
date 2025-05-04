@@ -15,9 +15,13 @@
     "@nuxt/image": "1.10.0",
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/tailwindcss": "^6.13.1",
+    "locomotive-scroll": "^4.1.4",
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-iconsax": "^2.0.0",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/locomotive-scroll": "^4.1.4"
   }
 }
