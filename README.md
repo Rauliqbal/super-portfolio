@@ -8,7 +8,7 @@
 <a href="#tech">Technologies</a> |
 <a href="#started">Getting Started</a> |
 <a href="#colab">Collaborators</a> |
-<a href="#contribute">Contribute</a> 
+<a href="#contribute">Contribute</a>
 </p>
 
 <p align="center">⚡ Build your timeless portfolio with Super Portfolio with Nuxt 3 and Tailwind CSS </p>
@@ -23,7 +23,7 @@
 - Tailwind CSS v3
 - Typescript
 - Iconsax
-- Nuxt/Fonts
+- Nuxt Google Font
 
 <h2 id="started">🚀 Getting started</h2>
 
@@ -33,8 +33,9 @@ Here you describe how to run your project locally
 
 Here you list all prerequisites necessary for running your project. For example:
 
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+- [Node JS](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [PNPM](https://pnpm.io/installation)
 
 <h3>Cloning</h3>
 
@@ -80,7 +81,7 @@ Open on your browser http://localhost:3000
 
 </tr>
 </table>
- 
+
 <h2 id="contribute">📫 Contribute</h2>
 
 Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
