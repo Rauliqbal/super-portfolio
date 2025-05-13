@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import Lenis from '@studio-freight/lenis'
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
-
 onMounted(() => {
   gsap.registerPlugin(ScrollTrigger);
       const lenis = new Lenis();
@@ -24,25 +23,3 @@ onMounted(() => {
     <div class="bg-gradient-to-t from-dark to-transparent  fixed bottom-0 inset-x-0 h-24 z-50"></div>
   </main>
 </template>
-
-<style>
-html.lenis {
-  height: auto;
-}
-
-.lenis.lenis-smooth {
-  scroll-behavior: auto;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
-}
-</style>

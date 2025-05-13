@@ -14,13 +14,13 @@ export default {
       colors: {
         primary: '#4B70F5',
         white: '#F8FAFC',
-        dark: '#000114'
+        dark: '#0B0B1B'
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif']
       },
       animation: {
-        'infinite-scroll': 'infinite-scroll 80s linear infinite',
+        'infinite-scroll': 'infinite-scroll 60s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
