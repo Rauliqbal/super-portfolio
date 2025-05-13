@@ -26,9 +26,9 @@
       </div>
 
       <!-- Image -->
-      <div class="card relative flex items-center">
+      <div class="p-3 border bg-[#0b061a]/40 justify-center backdrop-blur-sm border-white/10 rounded-2xl relative flex items-center group">
         <!-- Remove if u want -->
-        <p class="absolute text-white/20 font-medium p-2">
+        <p class="absolute top-4 text-white/20 font-medium p-2">
               Photo by
               <a
                 href="https://unsplash.com/@sooprun?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"

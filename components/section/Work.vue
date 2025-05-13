@@ -15,7 +15,7 @@
     <!-- Works List -->
     <div class="grid md:grid-cols-2 gap-6 mt-16">
 
-      <div class="card relative flex items-center group" v-for="item in WORK.works">
+      <div class="p-3 border bg-[#0b061a]/40 backdrop-blur-sm border-white/10 rounded-2xl relative flex items-center group" v-for="item in WORK.works">
         <div class="overflow-hidden aspect-[4/3] rounded-lg ">
           <img class="group-hover:scale-105 transition-all duration-500 w-full h-full object-cover" :src="'/images/work/' + item.thumbnails" :alt="'Thumbnail ' + item.name ">
         </div>
