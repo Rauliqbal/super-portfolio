@@ -10,7 +10,7 @@
         <p class="paragraph max-w-xl text-center mt-8">
           {{ CTA.description }}
         </p>
-        <Button class="mt-10" variant="btn-primary" label="Start Collaboration"/>
+        <Button class="mt-10" to="#" variant="btn-primary" label="Start Collaboration"/>
 
         <div class="my-8 w-4/5 h-[1px] bg-gradient-to-r from-white/0 via-white/20 to-white/0 "></div>
 
