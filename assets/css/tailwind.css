@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    @apply scroll-smooth
-  }
   body {
     @apply bg-dark font-poppins;
   }
@@ -25,7 +22,7 @@
     @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-white border border-white/10 ;
   }
   .card {
-    @apply flex flex-col p-3 border bg-[#0b061a] border-white/10 rounded-2xl;
+    @apply flex flex-col p-3 border bg-[#0b061a]/90  border-white/10 rounded-2xl;
   }
 }
 
@@ -46,10 +43,23 @@ background-image:
 radial-gradient(at 9% 71%, hsla(240,81%,25%,1) 0px, transparent 50%),
 radial-gradient(at 97% 40%, hsla(232,71%,40%,1) 0px, transparent 50%);
 }
-
 .animate-fade {
     opacity: 1;
     transform: translateY(0);
     transition: all 0.6s ease;
-  }
-
+}
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}

@@ -75,35 +75,35 @@ export const WORK = {
     },
     {
       name: "FurniLux",
-      live_demo: 'https://azurakit.vercel.app/product/dtq8B4VppLl7vy3mznzIdA==',
+      live_demo: '#',
       description: 'Make your home comfortable with best furniture.',
       thumbnails: 'furnilux-landingpage.webp',
       type: 'landing page'
     },
     {
       name: "Let's Food UI Kit",
-      live_demo: 'https://azurakit.vercel.app/product/DEmTK1qQqBqRsBe2ynD9gg==',
+      live_demo: '#',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
       thumbnails: 'letsfood-landingpage.webp',
       type: 'Web Design'
     },
     {
       name: "Creative Agency",
-      live_demo: 'https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==',
+      live_demo: '#',
       description: 'This website is to improve your business as a software house and reach more customers.',
       thumbnails: 'creativeagency-landingpage.webp',
       type: 'Web Company'
     },
     {
       name: "Login Register Design",
-      live_demo: 'https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==',
+      live_demo: '#',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
       thumbnails: 'loginregister-design.webp',
       type: 'UI Design'
     },
     {
       name: "IRATOON - Streaming App",
-      live_demo: 'https://azurakit.vercel.app/product/gsveMBZj4uAEFyKaJHlSgw==',
+      live_demo: '#',
       description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit cum distinctio dolores.',
       thumbnails: 'iratoon-mobileapp.webp',
       type: 'Mobile App'

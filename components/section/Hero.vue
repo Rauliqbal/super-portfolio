@@ -50,7 +50,7 @@
      
     </div>
 
-    <div class="absolute -top-40 right-40 rotate-45 w-24 h-[400px] bg-blue-500 blur-[160px]"></div>
+    <div class="absolute -top-40 right-40 rotate-45 w-14 h-[800px] bg-blue-700 blur-[100px]"></div>
     <div class="absolute top-0 left-0 w-screen h-screen index-bg">
         <div class="h-0">
             <div class="star"></div>

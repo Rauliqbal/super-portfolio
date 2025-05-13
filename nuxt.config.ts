@@ -7,9 +7,6 @@ export default defineNuxtConfig({
       title: 'Rauliqbal | Front-End Developer and UI Designer'
     }
   },
-  css: [
-    'locomotive-scroll/dist/locomotive-scroll.css'
-  ],
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
     families: {

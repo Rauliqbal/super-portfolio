@@ -5,7 +5,6 @@ function navActive() {
   isActive.value = !isActive.value
 }
 
-console.log(isActive.value)
 </script>
 
 <template>
