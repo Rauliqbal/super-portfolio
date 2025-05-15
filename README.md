@@ -14,7 +14,7 @@
 <p align="center">⚡ Build your timeless portfolio with Super Portfolio with Nuxt 3 and Tailwind CSS </p>
 
 <p align="center">
-<a href="https://github.com/Rauliqbal/super-portfolio">📱 Visit this Project</a>
+<a href="https://super-portfolioo.pages.dev/">📱 Visit this Project</a>
 </p>
 
 <h2 id="tech">💻 Technologies</h2>
