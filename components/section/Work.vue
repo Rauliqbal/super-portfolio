@@ -40,7 +40,7 @@
         </div>
 
         <div
-          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0 ADAWDDWDAWDAWD"
+          class="absolute  bottom-0 w-60 h-[1px] z-10 bg-gradient-to-r from-[#0b50e5]/0 via-[#0b50e5] to-[#0b50e5]/0"
         ></div>
       </div>
     </div>
