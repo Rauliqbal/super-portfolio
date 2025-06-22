@@ -78,6 +78,14 @@ Open on your browser http://localhost:3000
 </sub>
 </a>
 </td>
+<td align="center">
+<a href="https://github.com/kkkfasya">
+<img src="https://avatars.githubusercontent.com/u/69980010?v=4" width="100px;" alt="Rauliqbal Profile Picture"/><br>
+<sub>
+<b>kkkfasya</b>
+</sub>
+</a>
+</td>
 
 </tr>
 </table>
